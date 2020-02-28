@@ -1,0 +1,20 @@
+.titulo{
+  color:rgb(44, 44, 92);
+  font-size:20px;
+  text-align: center;
+}
+.styleHeader{
+  background-color: #44c6cf;
+  padding-top: 0;
+  margin: 0;
+}
+.lacuna{
+  width: 10px;
+}
+.center{
+  text-align: center;
+}
+.widthTopButto{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

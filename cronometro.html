@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cronometro</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="styleHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="titulo">Cronometro simples</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 center"><span class="lacuna"></span></div>
+        <div class="col-md-6 col-sm-6 center widthTopButto">
+          <span id="timerHoras">00</span> : 
+          <span id="timerMinutos">00</span> : 
+          <span id="timerSegundos">00</span> : 
+          <span id="timerDesimo">00</span>
+        </div>
+        <div class="col-md-3 col-sm-3 center"><span class="lacuna"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 center"><span class="lacuna"></span></div>
+        <div class="col-md-4 col-sm-4 center">
+          <button id="start" onclick="initCronometro()">Iniciar</button>
+          <button id="zerar" onclick="zeraCronometro()">Zerar</button>
+          <button id="gravar" onclick="gravar()">Gravar</button>
+        </div>
+        <div class="col-md-4 col-sm-4 center"><span class="lacuna"></span></div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 center"><span class="lacuna"></span></div>
+        <div class="col-md-4 col-sm-4 center" id="timerSalvo">
+          <p id="timerSalvo1"></p>
+          <p id="timerSalvo2"></p>
+          <p id="timerSalvo3"></p>
+          <p id="timerSalvo4"></p>
+          <p id="timerSalvo5"></p>
+          <p id="timerSalvo6"></p>
+          <p id="timerSalvo7"></p>
+          <p id="timerSalvo8"></p>
+          <p id="timerSalvo9"></p>
+        </div>
+        <div class="col-md-4 col-sm-4 center"><span class="lacuna"></span></div>
+      </div>
+    </section>
+  </main>
+  <script src="bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+  <script src="script.js" > </script>
+</body>
+</html>
